@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Privacy and deletion information
+    url: https://lukecho-labs.github.io/lukecho-labs-site/deletion.html
+    about: Review the safe data deletion process before opening a public issue.

@@ -1,0 +1,27 @@
+name: Support question
+description: Ask a non-sensitive question about Lukecho Labs public materials.
+title: "Support: "
+labels: [support]
+body:
+  - type: markdown
+    attributes:
+      value: Do not include credentials, account identifiers, private repository names, webhook payloads, media files, or signed URLs.
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: Describe the public product, documentation, or policy question.
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Related public page
+      description: Optional HTTPS URL for the page involved.
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety check
+      options:
+        - label: I confirm this issue contains no credentials or private identifiers.
+          required: true
