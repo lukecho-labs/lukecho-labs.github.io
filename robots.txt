@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lukecho92-netizen.github.io/lukecho-labs-site/sitemap.xml
