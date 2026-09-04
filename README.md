@@ -12,4 +12,4 @@ python -m http.server 8080
 
 ## Publication
 
-GitHub Pages deploys the repository root through the pinned workflow in `.github/workflows/pages.yml`.
+GitHub Pages validates the source and deploys only the explicit public-file allowlist staged in `_site` by the pinned workflow in `.github/workflows/pages.yml`.
